@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
-  <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
-    {{- partial "navbar.html" . -}}
-    {{- block "main" . }}
+
       <!-- Yandex.Metrika counter -->
       <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -20,6 +18,10 @@
       </script>
       <noscript><div><img src="https://mc.yandex.ru/watch/98485346" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
       <!-- /Yandex.Metrika counter -->
+
+  <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
+    {{- partial "navbar.html" . -}}
+    {{- block "main" . }}
     {{ end -}}
     {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
       {{ partial "footer.html" . }}

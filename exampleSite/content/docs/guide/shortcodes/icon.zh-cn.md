@@ -8,7 +8,7 @@ title: 图标
 enableInlineShortcodes: true
 ```
 
-可用图标列表可以在以下位置找到 [`data/icons.yaml`](https://github.com/imfing/hextra/blob/main/data/icons.yaml).
+可用图标列表可以在以下位置找到 [`data/icons.yaml`](https://github.com/kringova/hextra/blob/main/data/icons.yaml).
 
 <!--more-->
 

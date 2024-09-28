@@ -7,7 +7,7 @@ prev: /docs
 
 ## 使用模板快速开始
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/kringova/hextra-starter-template)
 
 通过使用上面的模板仓库，您将能够快速地开始。
 
@@ -40,7 +40,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # 添加 Hextra 
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/kringova/hextra
 ```
 
 编辑 `hugo.yaml` 以启用 Hextra：
@@ -48,7 +48,7 @@ hugo mod get github.com/imfing/hextra
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/kringova/hextra
 ```
 
 ### 通过 Git Submodule 安装
@@ -73,7 +73,7 @@ hugo new site my-site --format=yaml
 ### 将 Hextra 添加为 Git Submodule
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/kringova/hextra.git themes/hextra
 ```
 
 添加以下内容来配置 `hugo.yaml` 以使用 Hextra：
@@ -121,10 +121,10 @@ git submodule update --init
 hugo mod get -u
 ```
 
-如需把 Hextra 升级到[最新的发行版本](https://github.com/imfing/hextra/releases), 在终端中运行此命令：
+如需把 Hextra 升级到[最新的发行版本](https://github.com/kringova/hextra/releases), 在终端中运行此命令：
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/kringova/hextra
 ```
 
 如果你需要获得更多信息，参见 [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/#update-all-modules).

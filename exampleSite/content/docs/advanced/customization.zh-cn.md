@@ -55,4 +55,4 @@ layouts/partials/custom/head-end.html
 
 ## 进一步定制 Hextra
 
-没有找到你想修改的内容？在 GitHub 上[创建 Discussion](https://github.com/imfing/hextra/discussions) 或为 Hextra 贡献你的智慧！
+没有找到你想修改的内容？在 GitHub 上[创建 Discussion](https://github.com/kringova/hextra/discussions) 或为 Hextra 贡献你的智慧！

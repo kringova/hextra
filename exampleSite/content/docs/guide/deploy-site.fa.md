@@ -15,11 +15,11 @@ Hugo وب‌سایت‌های استاتیک را ایجاد می‌کند و ا
 
 [گیت‌هاب Pages](https://docs.github.com/pages) روشی توصیه شده برای به‌کاراندازی و میزبانی وب‌سایت شما به صورت رایگان است.
 
-اگر سایت را با استفاده از [hextra-starter-template](https://github.com/imfing/hextra-starter-template) راه‌اندازی سریع پیاده‌سازی می‌کنید، گردش کار گیت‌هاب Actions را به صورت خارج از جعبه ارائه کرده‌ایم که به‌کاراندازی خودکار در گیت‌هاب Pages  به شما کمک می‌کند.
+اگر سایت را با استفاده از [hextra-starter-template](https://github.com/kringova/hextra-starter-template) راه‌اندازی سریع پیاده‌سازی می‌کنید، گردش کار گیت‌هاب Actions را به صورت خارج از جعبه ارائه کرده‌ایم که به‌کاراندازی خودکار در گیت‌هاب Pages  به شما کمک می‌کند.
 
 {{% details title="پیکربندی گیت‌هاب Actions" closed="true" %}}
 
-در زیر یک پیکربندی مثال از [hextra-starter-template](https://github.com/imfing/hextra-starter-template) آورده شده است:
+در زیر یک پیکربندی مثال از [hextra-starter-template](https://github.com/kringova/hextra-starter-template) آورده شده است:
 
 ```yaml {filename=".github/workflows/pages.yaml"}
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
@@ -159,4 +159,4 @@ run: |
    1. دستور Build را روی `hugo --gc --minify` تنظیم کنید
    2. دستور Install را روی `yum install golang` تنظیم کنید
 
-![پیکربندی استقرار Vercel](https://github.com/imfing/hextra/assets/5097752/887d949b-8d05-413f-a2b4-7ab92192d0b3)
+![پیکربندی استقرار Vercel](https://github.com/kringova/hextra/assets/5097752/887d949b-8d05-413f-a2b4-7ab92192d0b3)

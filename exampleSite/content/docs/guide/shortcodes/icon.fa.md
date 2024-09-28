@@ -9,7 +9,7 @@ title: آیکون
 enableInlineShortcodes: true
 ```
 
-فهرست آیکون‌های موجود را می‌توانید در [`data/icons.yaml`](https://github.com/imfing/hextra/blob/main/data/icons.yaml) پیدا کنید.
+فهرست آیکون‌های موجود را می‌توانید در [`data/icons.yaml`](https://github.com/kringova/hextra/blob/main/data/icons.yaml) پیدا کنید.
 
 <!--more-->
 

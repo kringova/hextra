@@ -7,7 +7,7 @@ prev: /docs
 
 ## شروع سریع از طریق Template
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/kringova/hextra-starter-template)
 
 با استفاده از template در بالای صفحه‌ای مخزن می‌توانید به سرعت شروع به کار کنید.
 
@@ -52,7 +52,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # افزودن تم هگزترا
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/kringova/hextra
 ```
 
 با افزودن موارد زیر، `hugo.yaml` را برای استفاده از تم هگزترا پیکربندی کنید:
@@ -60,7 +60,7 @@ hugo mod get github.com/imfing/hextra
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/kringova/hextra
 ```
 
 ### اولین صفحه‌های محتوای خود را ایجاد کنید
@@ -91,10 +91,10 @@ hugo server --buildDrafts --disableFastRender
 hugo mod get -u
 ```
 
-برای به‌روزرسانی هگزترا به [آخرین نسخه منتشر شده](https://github.com/imfing/hextra/releases)، دستور زیر را اجرا کنید:
+برای به‌روزرسانی هگزترا به [آخرین نسخه منتشر شده](https://github.com/kringova/hextra/releases)، دستور زیر را اجرا کنید:
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/kringova/hextra
 ```
 
 برای جزئیات بیشتر به [ماژول‌های هیوگو](https://gohugo.io/hugo-modules/use-modules/#update-all-modules) مراجعه کنید.
@@ -123,7 +123,7 @@ hugo new site my-site --format=yaml
 ### افزودن تم هگزترا به عنوان یک ساب‌ماژول Git
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/kringova/hextra.git themes/hextra
 ```
 
 با افزودن موارد زیر، `hugo.yaml` را برای استفاده از تم هگزترا پیکربندی کنید:

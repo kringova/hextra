@@ -100,8 +100,8 @@ It will compile the Tailwind CSS styles and generate the `assets/css/compiled/ma
 
 [fork and pull]: https://docs.github.com/en/get-started/quickstart/contributing-to-projects
 [conventional commits]: https://www.conventionalcommits.org
-[issues]: https://github.com/imfing/hextra/issues
-[discussions]: https://github.com/imfing/hextra/discussions
+[issues]: https://github.com/kringova/hextra/issues
+[discussions]: https://github.com/kringova/hextra/discussions
 [nodejs]: https://nodejs.org/en/
 [hugo]: https://gohugo.io/
 [go]: https://golang.org/doc/install

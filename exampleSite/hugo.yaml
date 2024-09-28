@@ -41,7 +41,7 @@ module:
 
   workspace: hugo.work
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/kringova/hextra
 
 markup:
   goldmark:
@@ -76,7 +76,7 @@ menu:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/kringova/hextra"
       params:
         icon: github
 
@@ -142,7 +142,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+    base: "https://github.com/kringova/hextra/edit/main/exampleSite/content"
 
   blog:
     list:

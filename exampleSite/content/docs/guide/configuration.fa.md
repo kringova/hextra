@@ -5,7 +5,7 @@ weight: 2
 
 Hugo پیکربندی خود را از `hugo.yaml` در ریشه سایت Hugo شما می‌خواند.
  پرونده پیکربندی جایی است که می‌توانید تمام جنبه‌های سایت خود را پیکربندی کنید.
- پرونده پیکربندی این سایت [`exampleSite/hugo.yaml`](https://github.com/imfing/hextra/blob/main/exampleSite/hugo.yaml) را در گیت‌هاب بررسی کنید تا ایده‌ای جامع از تنظیمات موجود و بهترین شیوه‌ها بدست آورید.
+ پرونده پیکربندی این سایت [`exampleSite/hugo.yaml`](https://github.com/kringova/hextra/blob/main/exampleSite/hugo.yaml) را در گیت‌هاب بررسی کنید تا ایده‌ای جامع از تنظیمات موجود و بهترین شیوه‌ها بدست آورید.
 
 <!--more-->
 
@@ -33,7 +33,7 @@ menu:
         type: search
     - name: گیت‌هاب
       weight: 5
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/kringova/hextra"
       params:
         icon: github
 ```
@@ -164,13 +164,13 @@ editURL: "https://example.com/edit/this/page"
 copyright: "© ۲۰۲۴ متن شما در اینجا"
 ```
 
-برای مرجع شما، یک مثال [`i18n/en.yaml`](https://github.com/imfing/hextra/blob/main/i18n/en.yaml) را می‌توانید در مخزن گیت‌هاب پیدا کنید. علاوه بر این، می‌توانید از فرمت مارک‌داون در متن کپی‌رایت استفاده کنید.
+برای مرجع شما، یک مثال [`i18n/en.yaml`](https://github.com/kringova/hextra/blob/main/i18n/en.yaml) را می‌توانید در مخزن گیت‌هاب پیدا کنید. علاوه بر این، می‌توانید از فرمت مارک‌داون در متن کپی‌رایت استفاده کنید.
 
 ## سایر موارد
 
 ### Favicon
 
-برای سفارشی کردن [favicon](https://en.wikipedia.org/wiki/Favicon) برای سایت خود، پرونده‌های آیکون را درون پوشه `static` قرار دهید تا [faviconهای پیش‌فرض در تم](https://github.com/imfing/hextra/tree/main/static) جایگزین شود:
+برای سفارشی کردن [favicon](https://en.wikipedia.org/wiki/Favicon) برای سایت خود، پرونده‌های آیکون را درون پوشه `static` قرار دهید تا [faviconهای پیش‌فرض در تم](https://github.com/kringova/hextra/tree/main/static) جایگزین شود:
 
 {{< filetree/container >}}
   {{< filetree/folder name="static" >}}

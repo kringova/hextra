@@ -70,4 +70,4 @@ layouts/partials/custom/head-end.html
 
 ## سفارشی‌سازی بیشتر
 
-چیزی را که دنبالش بودید پیدا نکردید؟ با خیال راحت [بحثی را باز کنید](https://github.com/imfing/hextra/discussions) یا به موضوع کمک کنید!
+چیزی را که دنبالش بودید پیدا نکردید؟ با خیال راحت [بحثی را باز کنید](https://github.com/kringova/hextra/discussions) یا به موضوع کمک کنید!

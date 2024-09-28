@@ -7,7 +7,7 @@ prev: /docs
 
 ## Quick Start from Template
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/kringova/hextra-starter-template)
 
 You could quickly get started by using the above template repository.
 
@@ -54,7 +54,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # add Hextra theme
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/kringova/hextra
 ```
 
 Configure `hugo.yaml` to use Hextra theme by adding the following:
@@ -62,7 +62,7 @@ Configure `hugo.yaml` to use Hextra theme by adding the following:
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/kringova/hextra
 ```
 
 ### Create your first content pages
@@ -93,10 +93,10 @@ To update all Hugo modules in your project to their latest versions, run the fol
 hugo mod get -u
 ```
 
-To update Hextra to the [latest released version](https://github.com/imfing/hextra/releases), run the following command:
+To update Hextra to the [latest released version](https://github.com/kringova/hextra/releases), run the following command:
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/kringova/hextra
 ```
 
 See [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/#update-all-modules) for more details.
@@ -125,7 +125,7 @@ hugo new site my-site --format=yaml
 ### Add Hextra theme as a Git submodule
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/kringova/hextra.git themes/hextra
 ```
 
 Configure `hugo.yaml` to use Hextra theme by adding the following:

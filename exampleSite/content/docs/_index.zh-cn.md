@@ -24,7 +24,7 @@ Hextra 是一款现代、快速且内置丰富功能的 [Hugo][hugo] 主题，�
 
 {{< callout emoji="❓" >}}
   Hextra 仍在积极开发中。
-  有问题或反馈？请随时[提出问题](https://github.com/imfing/hextra/issues)！
+  有问题或反馈？请随时[提出问题](https://github.com/kringova/hextra/issues)！
 {{< /callout >}}
 
 ## 接下来

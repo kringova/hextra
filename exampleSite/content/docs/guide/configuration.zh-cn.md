@@ -33,7 +33,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/kringova/hextra"
       params:
         icon: github
 ```
@@ -132,13 +132,13 @@ editURL: "https://example.com/edit/this/page"
 ```yaml {filename="i18n/en.yaml"}
 copyright: "© 2024 YOUR TEXT HERE"
 ```
-你可以在 GitHub 存储库中找到示例 [`i18n/en.yaml`](https://github.com/imfing/hextra/blob/main/i18n/en.yaml) 文件。另外，你可以在版权文本中使用 Markdown 格式。
+你可以在 GitHub 存储库中找到示例 [`i18n/en.yaml`](https://github.com/kringova/hextra/blob/main/i18n/en.yaml) 文件。另外，你可以在版权文本中使用 Markdown 格式。
 
 ## 其他
 
 ### Favicon
 
-如需自定义 [favicon](https://en.wikipedia.org/wiki/Favicon)，请将图标文件放在 `static` 文件夹下以覆盖 [主题中的默认 favicon](https://github.com/imfing/hextra/tree/main/static)：
+如需自定义 [favicon](https://en.wikipedia.org/wiki/Favicon)，请将图标文件放在 `static` 文件夹下以覆盖 [主题中的默认 favicon](https://github.com/kringova/hextra/tree/main/static)：
 
 {{< filetree/container >}}
   {{< filetree/folder name="static" >}}

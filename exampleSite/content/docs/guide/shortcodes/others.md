@@ -37,12 +37,12 @@ Result:
 With link:
 
 ```
-{{</* badge content="Releases" link="https://github.com/imfing/hextra/releases" */>}}
+{{</* badge content="Releases" link="https://github.com/kringova/hextra/releases" */>}}
 ```
 
 Result:
 
-{{< badge content="Releases" link="https://github.com/imfing/hextra/releases" >}}
+{{< badge content="Releases" link="https://github.com/kringova/hextra/releases" >}}
 
 
 ## YouTube

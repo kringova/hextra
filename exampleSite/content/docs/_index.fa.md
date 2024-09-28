@@ -25,7 +25,7 @@ title: معرفی
 
 {{< callout emoji="❓" >}}
   هگزترا هنوز در حال توسعه است.
- سوال یا بازخوردی دارید؟ با خیال راحت [یک موضوع را باز کنید](https://github.com/imfing/hextra/issues)!
+ سوال یا بازخوردی دارید؟ با خیال راحت [یک موضوع را باز کنید](https://github.com/kringova/hextra/issues)!
 {{< /callout >}}
 
 ## بعدی
